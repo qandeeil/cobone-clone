@@ -4,6 +4,7 @@ import styles from './styles';
 import {HeaderCartScreen} from '../../components/headerCartScreen/HeaderCartScreen';
 import {useAppSelector} from '../../store/hooks';
 import {ProductCartCards} from '../../components/cards/productCartCards/ProductCartCards';
+import {CodeCard} from '../../components/cards/codeCard/CodeCard';
 
 type CartScreenProps = {};
 
@@ -46,7 +47,27 @@ export function CartScreen(props: CartScreenProps) {
         )}
         contentContainerStyle={styles.contentContainerStyle}
         showsVerticalScrollIndicator={false}
+        ListFooterComponent={() => (
+          <View style={styles.listFooterComponent}>
+            <CodeCard title="Discount Code" placeholder="Enter coupon code" />
+            <CodeCard title="Gift Card" placeholder="Gift card code" />
+            <View style={styles.containerBills}>
+              <Text style={styles.textTitleBills}>Payment Details</Text>
+              <View style={styles.contentBills}>
+                <View style={[styles.sectionBills, styles.sectionBillsOne]}>
+                  <Text style={styles.textBillsFAS}>Subtotal</Text>
+                  <Text style={styles.textBillsFAS}>AED {totalPrice}</Text>
+                </View>
+                <View style={[styles.sectionBills, styles.sectionBillsTwo]}>
+                  <Text style={styles.textBillsLAS}>To Pay</Text>
+                  <Text style={styles.textBillsLAS}>AED {totalPrice}</Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        )}
       />
+
       <View style={styles.containerTotalPrice}>
         <View style={styles.containerPrice}>
           <Text style={styles.textTotal}>Total Price</Text>

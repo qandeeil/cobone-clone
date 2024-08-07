@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     gap: moderateScale(12, 0.3),
     paddingTop: moderateScale(12, 0.3),
     paddingHorizontal: moderateScale(12, 0.3),
+    paddingBottom: moderateScale(12, 0.3),
   },
   containerTotalPrice: {
     height: moderateScale(110, 0.3),
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: moderateScale(12, 0.3),
     paddingTop: moderateScale(18, 0.3),
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
   },
   containerPrice: {
     flexDirection: 'column',
@@ -46,6 +47,51 @@ const styles = StyleSheet.create({
     fontSize: moderateScale(14, 0.3),
     fontWeight: 'bold',
   },
+  listFooterComponent: {
+    gap: moderateScale(12, 0.3),
+  },
+  containerBills: {
+    gap: moderateScale(8, 0.3),
+  },
+  textTitleBills: {
+    fontWeight: '500',
+    fontSize: moderateScale(14, 0.3),
+    color: '#222',
+  },
+  contentBills: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    height: moderateScale(70, 0.3),
+    flexDirection: 'column',
+    paddingVertical: moderateScale(12, 0.3),
+    paddingHorizontal: moderateScale(14, .3)
+  },
+  sectionBills: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  textBillsFAS: {
+    fontSize: moderateScale(13, 0.3),
+    color: '#222',
+    fontWeight: '400',
+    opacity: 0.7,
+    paddingHorizontal: moderateScale(14, .3)
+  },
+  textBillsLAS: {
+    fontSize: moderateScale(13, 0.3),
+    color: '#222',
+    fontWeight: '500',
+    paddingHorizontal: moderateScale(14, .3)
+  },
+  sectionBillsOne: {
+    borderBottomColor: '#000',
+    borderBottomWidth: 1,
+    paddingBottom: moderateScale(8, .3)
+  },
+  sectionBillsTwo: {
+    paddingTop: moderateScale(8, .3)
+  }
 });
 
 export default styles;
