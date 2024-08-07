@@ -1,0 +1,326 @@
+[
+  {
+    "_id": "1",
+    "name": "Outdoor Activities",
+    "type": 2
+  },
+  {
+    "_id": " 2",
+    "name": "Indoor Activities",
+    "type": 2
+  },
+  {
+    "_id": "3",
+    "name": "Kids & Family",
+    "type": 2
+  },
+  {
+    "_id": "4",
+    "name": "Kids Winter Activities",
+    "type": 2
+  },
+  {
+    "_id": "5",
+    "name": "Beach & Pool Access",
+    "type": 2
+  },
+  {
+    "_id": "6",
+    "name": "Water Sports",
+    "type": 2
+  },
+  {
+    "_id": "7",
+    "name": "Games & Rides",
+    "type": 2
+  },
+  {
+    "_id": "8",
+    "name": "Desert Safaris",
+    "type": 2
+  },
+  {
+    "_id": "9",
+    "name": "Dhow Cruises",
+    "type": 2
+  },
+  {
+    "_id": "10",
+    "name": "Fishing Trips",
+    "type": 2
+  },
+  {
+    "_id": "11",
+    "name": "Boats & Yachts",
+    "type": 2
+  },
+  {
+    "_id": "12",
+    "name": "Adventure",
+    "type": 2
+  },
+  {
+    "_id": "13",
+    "name": "City Tours",
+    "type": 2
+  },
+  {
+    "_id": "14",
+    "name": "Top Attractions",
+    "type": 2
+  },
+  {
+    "_id": "15",
+    "name": "Spring Camp",
+    "type": 2
+  },
+
+  {
+    "_id": "16",
+    "name": "Breakfast",
+    "type": 3
+  },
+  {
+    "_id": "17",
+    "name": "Lunch",
+    "type": 3
+  },
+  {
+    "_id": "18",
+    "name": "Dinner",
+    "type": 3
+  },
+  {
+    "_id": "19",
+    "name": "Brunch",
+    "type": 3
+  },
+  {
+    "_id": "20",
+    "name": "Buffet",
+    "type": 3
+  },
+  {
+    "_id": "21",
+    "name": "Sushi",
+    "type": 3
+  },
+  {
+    "_id": "22",
+    "name": "Grills & BBQ",
+    "type": 3
+  },
+  {
+    "_id": "23",
+    "name": "Seafood",
+    "type": 3
+  },
+  {
+    "_id": "24",
+    "name": "5 Star",
+    "type": 3
+  },
+  {
+    "_id": "25",
+    "name": "Indian Food",
+    "type": 3
+  },
+  {
+    "_id": "26",
+    "name": "Middle Eastern",
+    "type": 3
+  },
+  {
+    "_id": "27",
+    "name": "Asian Favourites",
+    "type": 3
+  },
+  {
+    "_id": "28234",
+    "name": "Theme Nights",
+    "type": 3
+  },
+
+  {
+    "_id": "234sfd",
+    "name": "Dubai",
+    "type": 4
+  },
+  {
+    "_id": "244123",
+    "name": "Abu Dhabi",
+    "type": 4
+  },
+  {
+    "_id": "2542435",
+    "name": "Al Ain",
+    "type": 4
+  },
+  {
+    "_id": "26123",
+    "name": "Sharjah",
+    "type": 4
+  },
+  {
+    "_id": "27423",
+    "name": "Umm Al Quwain",
+    "type": 4
+  },
+  {
+    "_id": "284243",
+    "name": "Dammam",
+    "type": 4
+  },
+
+  {
+    "_id": "29",
+    "name": "Luxury Car Rentals",
+    "type": 7
+  },
+  {
+    "_id": "30",
+    "name": "Sports Car Deals",
+    "type": 7
+  },
+  {
+    "_id": "31",
+    "name": "Convertible Car Offers",
+    "type": 7
+  },
+  {
+    "_id": "32",
+    "name": "Electric Vehicle Discounts",
+    "type": 7
+  },
+  {
+    "_id": "33",
+    "name": "SUV Rental Deals",
+    "type": 7
+  },
+  {
+    "_id": "34",
+    "name": "High-End Car Leasing",
+    "type": 7
+  },
+  {
+    "_id": "35",
+    "name": "Chauffeur Services",
+    "type": 7
+  },
+  {
+    "_id": "36",
+    "name": "Weekend Car Rentals",
+    "type": 7
+  },
+  {
+    "_id": "37",
+    "name": "Luxury Vehicle Specials",
+    "type": 7
+  },
+  {
+    "_id": "38",
+    "name": "Premium Auto Packages",
+    "type": 7
+  },
+  {
+    "_id": "39",
+    "name": "Auto Lease Offers",
+    "type": 7
+  },
+  {
+    "_id": "40",
+    "name": "Exclusive Car Rentals",
+    "type": 7
+  },
+  {
+    "_id": "41",
+    "name": "Luxury Car Services",
+    "type": 7
+  },
+  {
+    "_id": "42",
+    "name": "Premium SUV Deals",
+    "type": 7
+  },
+  {
+    "_id": "43",
+    "name": "Vehicle Maintenance Offers",
+    "type": 7
+  },
+
+  {
+    "_id": "44",
+    "name": "Facial Treatments",
+    "type": 8
+  },
+  {
+    "_id": "45",
+    "name": "Massage Packages",
+    "type": 8
+  },
+  {
+    "_id": "46",
+    "name": "Manicure & Pedicure",
+    "type": 8
+  },
+  {
+    "_id": "47",
+    "name": "Haircuts & Styling",
+    "type": 8
+  },
+  {
+    "_id": "48",
+    "name": "Spa Day Specials",
+    "type": 8
+  },
+  {
+    "_id": "49",
+    "name": "Beauty Treatments",
+    "type": 8
+  },
+  {
+    "_id": "50",
+    "name": "Luxury Skincare",
+    "type": 8
+  },
+  {
+    "_id": "51",
+    "name": "Nail Care Deals",
+    "type": 8
+  },
+  {
+    "_id": "52",
+    "name": "Professional Hair Services",
+    "type": 8
+  },
+  {
+    "_id": "53",
+    "name": "Wellness Packages",
+    "type": 8
+  },
+  {
+    "_id": "54",
+    "name": "Exclusive Beauty Offers",
+    "type": 8
+  },
+  {
+    "_id": "55",
+    "name": "Aesthetic Treatments",
+    "type": 8
+  },
+  {
+    "_id": "56",
+    "name": "Body Scrubs & Wraps",
+    "type": 8
+  },
+  {
+    "_id": "57",
+    "name": "Hair Treatment Deals",
+    "type": 8
+  },
+  {
+    "_id": "58",
+    "name": "Skin Care Packages",
+    "type": 8
+  }
+]
