@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   textHeader: {
-    fontSize: moderateScale(18, 0.3),
+    fontSize: moderateScale(16, 0.3),
     fontWeight: 'bold',
     paddingHorizontal: moderateScale(12, 0.3),
   },
