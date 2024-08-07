@@ -20,7 +20,7 @@ export function SectionTags({title, data, numColumns}: SectionTagsProps) {
   }, [data]);
 
   const renderItem = React.useCallback(
-    (item: any) => <TagCard name={item.name} />,
+    (item: any) => <TagCard name={item.name} key={item._id}/>,
     [],
   );
 
