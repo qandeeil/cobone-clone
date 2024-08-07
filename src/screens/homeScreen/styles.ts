@@ -7,8 +7,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5F7F6',
   },
   scrollViewContent: {
-    gap: moderateScale(12, 0.3),
+    gap: moderateScale(16, 0.3),
     paddingTop: moderateScale(12, 0.3),
+    paddingBottom: moderateScale(12, .3)
   },
 });
 
