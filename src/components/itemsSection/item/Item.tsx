@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from './styles';
 
 interface IItem {
@@ -14,11 +14,11 @@ type ItemProps = {
 
 export function Item({item}: ItemProps) {
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container} activeOpacity={0.8}>
       <View style={styles.containerImage}>
-        <Image source={{uri: item.image}} style={styles.image}/>
+        <Image source={{uri: item.image}} style={styles.image} />
       </View>
       <Text style={styles.textName}>{item.name}</Text>
-    </View>
+    </TouchableOpacity>
   );
 }
