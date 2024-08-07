@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "1",
+    "name": "New In",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/new-in.jpg"
+  },
+  {
+    "_id": "2",
+    "name": "Activities",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/activities.jpg"
+  },
+  {
+    "_id": "3",
+    "name": "Auto",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/auto.jpg"
+  },
+  {
+    "_id": "4",
+    "name": "Beauty",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/beauty.jpg"
+  },
+  {
+    "_id": "5",
+    "name": "Best Sellers",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/best-seller.jpg"
+  },
+  {
+    "_id": "6",
+    "name": "Food",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/food.jpg"
+  },
+  {
+    "_id": "7",
+    "name": "Getaways",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/getaways.jpg"
+  },
+  {
+    "_id": "8",
+    "name": "Services",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/services.jpg"
+  },
+  {
+    "_id": "9",
+    "name": "TICKETS",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/tickets.jpg"
+  },
+  {
+    "_id": "10",
+    "name": "Wellness",
+    "image": "https://cdn.cobone.com/onsite-banners/2022/icons/wellness.jpg"
+  }
+]
