@@ -8,13 +8,28 @@ export interface IProduct {
   _id: string;
   image: string;
   name: string;
-  price: number;
-  discount: number;
   reviews: IReviews[];
   forLimited: boolean;
   bought: number;
-  quantity: number;
   background?: string;
+  options: IOptions[];
+  selectedOption?: ISelectedOption;
+}
+
+export interface ISelectedOption {
+  _id: string;
+  price: number;
+  discount: number;
+  description: string;
+  quantity: number;
+}
+
+export interface IOptions {
+  selectedOption: any;
+  _id: string;
+  price: number;
+  discount: number;
+  description: string;
 }
 
 interface IReviews {
