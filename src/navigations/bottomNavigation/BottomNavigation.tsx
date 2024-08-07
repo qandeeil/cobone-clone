@@ -67,7 +67,7 @@ const tabBar = (
           ]}>
           <View
             style={
-              navigation === route.name
+              navigation === route.name || navigation === undefined
                 ? [styles.border, {borderColor: color, backgroundColor: color}]
                 : {}
             }
@@ -141,7 +141,7 @@ const tabBar = (
           ]}>
           <View
             style={
-              navigation === route.name
+              navigation === route.name 
                 ? [styles.border, {borderColor: color, backgroundColor: color}]
                 : {}
             }
