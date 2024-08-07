@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 
 const styles = StyleSheet.create({
@@ -13,11 +13,15 @@ const styles = StyleSheet.create({
     paddingBottom: moderateScale(12, 0.3),
   },
   containerTotalPrice: {
-    height: moderateScale(110, 0.3),
+    ...(Platform.OS === 'ios'
+      ? {
+          height: moderateScale(110, 0.3),
+        }
+      : {}),
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingHorizontal: moderateScale(12, 0.3),
-    paddingTop: moderateScale(18, 0.3),
+    paddingVertical: moderateScale(18, 0.3),
     backgroundColor: '#fff',
   },
   containerPrice: {
@@ -61,10 +65,9 @@ const styles = StyleSheet.create({
   contentBills: {
     backgroundColor: '#fff',
     borderRadius: 12,
-    height: moderateScale(70, 0.3),
     flexDirection: 'column',
     paddingVertical: moderateScale(12, 0.3),
-    paddingHorizontal: moderateScale(14, .3)
+    paddingHorizontal: moderateScale(14, 0.3),
   },
   sectionBills: {
     flexDirection: 'row',
@@ -76,22 +79,22 @@ const styles = StyleSheet.create({
     color: '#222',
     fontWeight: '400',
     opacity: 0.7,
-    paddingHorizontal: moderateScale(14, .3)
+    paddingHorizontal: moderateScale(14, 0.3),
   },
   textBillsLAS: {
     fontSize: moderateScale(13, 0.3),
     color: '#222',
     fontWeight: '500',
-    paddingHorizontal: moderateScale(14, .3)
+    paddingHorizontal: moderateScale(14, 0.3),
   },
   sectionBillsOne: {
     borderBottomColor: '#000',
     borderBottomWidth: 1,
-    paddingBottom: moderateScale(8, .3)
+    paddingBottom: moderateScale(8, 0.3),
   },
   sectionBillsTwo: {
-    paddingTop: moderateScale(8, .3)
-  }
+    paddingTop: moderateScale(8, 0.3),
+  },
 });
 
 export default styles;

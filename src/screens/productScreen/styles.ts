@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 
 const styles = StyleSheet.create({
@@ -55,7 +55,14 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   containerButton: {
-    height: moderateScale(100, 0.3),
+    ...(Platform.OS === 'ios'
+      ? {
+          height: moderateScale(100, 0.3),
+        }
+      : {
+          paddingVertical: moderateScale(12, 0.3),
+        }),
+
     alignItems: 'center',
   },
   buttonAddCart: {
@@ -63,11 +70,15 @@ const styles = StyleSheet.create({
     height: moderateScale(45, 0.3),
     width: '95%',
     borderRadius: 12,
-    marginTop: moderateScale(12, 0.3),
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
     gap: moderateScale(8, 0.3),
+    ...(Platform.OS === 'ios'
+      ? {
+          marginTop: moderateScale(12, 0.3),
+        }
+      : {}),
   },
   textButton: {
     color: '#fff',
