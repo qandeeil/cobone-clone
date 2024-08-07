@@ -3,6 +3,7 @@ import {View, Text, TouchableOpacity, Image} from 'react-native';
 import styles from './styles';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {moderateScale} from 'react-native-size-matters';
+import {useNavigation} from '@react-navigation/native';
 
 interface IReviews {
   _id: string;
@@ -15,6 +16,7 @@ type ProductCardProps = {
   price: number;
   discount: number;
   reviews: IReviews[];
+  _id: string;
 };
 
 export function ProductCard({
@@ -23,6 +25,7 @@ export function ProductCard({
   price,
   discount,
   reviews,
+  _id,
 }: ProductCardProps) {
   const discountedPrice = discount
     ? (price - (price * discount) / 100).toFixed(2)
@@ -30,8 +33,13 @@ export function ProductCard({
   const totalRating = reviews.reduce((sum, review) => sum + review.rate, 0);
   const averageRating = reviews.length > 0 ? totalRating / reviews.length : 0;
   const roundedAverageRating = averageRating.toFixed(1);
+  const navigation: any = useNavigation();
+
   return (
-    <TouchableOpacity style={styles.container} activeOpacity={0.8}>
+    <TouchableOpacity
+      style={styles.container}
+      activeOpacity={0.8}
+      onPress={() => navigation.navigate('Product', {product_id: _id})}>
       <Image
         source={{
           uri: image,
