@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   textPlaceholdar: {
     color: '#9A9EA1',
     fontSize: moderateScale(14, 0.3),
-    fontWeight: 400,
+    fontWeight: '400',
     flex: 1,
   },
 });
